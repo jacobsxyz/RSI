@@ -10,7 +10,7 @@ import requests
 API_KEY = os.getenv("BINANCE_API_KEY", "")
 API_SECRET = os.getenv("BINANCE_API_SECRET", "")
 RSI_PERIOD = 6
-RSI_THRESHOLDS = [95, 97]
+RSI_THRESHOLDS = [70, 80]
 TIMEFRAMES = {
     "1h": Client.KLINE_INTERVAL_1HOUR,
     "15m": Client.KLINE_INTERVAL_15MINUTE
